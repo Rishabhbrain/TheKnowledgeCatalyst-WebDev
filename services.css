@@ -1,0 +1,134 @@
+*{
+    margin: 20px;
+}
+
+body{
+    background-color: #2d2d2d;
+}
+
+
+.wrapper{
+    display: flex;
+    gap: 5em;
+    width: 2em;
+ }
+
+header{
+    background:#2d2d2d;
+ }
+  
+nav{
+    font-size: 1em;
+
+}
+nav ul{
+    display: flex;
+    gap: 3em;
+    text-decoration: none;
+}
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.WWO{
+    margin-left: 300PX;
+    justify-content: center;
+    
+}
+
+.WWO H1{
+    margin-left: 180px;
+    font-size: 3em;
+}
+
+.WWO_BG{
+    background-color:  #565454;
+}
+
+.aim{
+    margin-top: 90px;
+    margin-left: 400px;
+    width: 600px;
+    height: 140px;
+    color: #888d96;
+}
+
+.our-projects{
+    display:flex;
+    padding: 25px;
+    background-color:rgb(84, 84, 84) ;
+}
+
+.our-projects h5{
+    color: white;
+    font-size: 1.5em;
+}
+
+.testimonials{
+    width: 500px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+
+.title{
+    color: #04d546;
+}
+
+/* CSS for testimonial section */
+.testimonial-section {
+    text-align: center;
+    background-color: #565454;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .testimonial {
+    display: none;
+  }
+  .testimonial.active {
+    display: block;
+  }
+  .testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .testimonial-content {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  .testimonial-name {
+    font-weight: bold;
+  }
+  
+  /* CSS for circular buttons */
+  .testimonial-buttons {
+    margin-top: 20px;
+  }
+  .testimonial-button {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .testimonial-button.active {
+    background-color: black;
+  }
+
+  .testimonial-text{
+    width: 600px;
+    margin-left: 300px;
+    color: #04d546;
+    font-size: 1.5em;
+  }
+  
